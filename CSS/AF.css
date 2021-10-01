@@ -1,0 +1,114 @@
+html{
+	height: 100%;
+}
+
+.jumbotron{
+    background-color: #0a2a0a;
+    color: #fff;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color:#0a2a0a;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #0a2a0a !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+
+h1{
+    font-size: 4em;
+	font-weight: bold;
+	font-family: 'Space Mono', monospace;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+	font-family: 'Space Mono', monospace;
+}
+
+.maintxt{
+    font-family: 'Akkurat Mono';
+    font-size: 18px;
+}
+
+.txt{
+    font-family: 'Akkurat Mono';
+    font-size: 14px;
+}
+
+.container-fluid{
+    padding: 60px 50px; 
+}
+
+.service{
+    background-color: #0a2a0a;
+    color: #fff;
+}
+
+.logo-small{
+    font-size: 40px;
+}
+
+.fa{
+    font-size: 60px;
+}
+
+.card{
+    padding: 20px;
+    text-align: left;
+}
+
+.card-title{
+    font-weight: bold;
+	font-family: 'Space Mono', monospace;
+    font-size: 20px;
+}
+
+.card-text{
+    font-size: 18px;
+    font-family: 'Akkurat Mono';
+}
+
+.imgb{
+    margin-top: 40px;
+}
+
+.btn2{
+   background-color:  #1b6f1b;
+   color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.btn2:hover{
+    color: #fff;
+}
+
+.morework{
+    font-weight: bold;
+	font-family: 'Space Mono', monospace;
+    font-size: 18px;
+}
+
+
+
+
+
+

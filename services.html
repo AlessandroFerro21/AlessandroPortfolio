@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Alessandro Ferro</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
+    <!-- Fonts awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/AF.css">
+</head>
+    
+<body id="mypage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <!-- Nav bar -->
+    <nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Alessandro Ferro</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#about">About</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>
+    
+<!-- header -->  
+<div class="jumbotron text-center">
+    <h1>Hi, I'm Alessandro</h1>
+    <p class="maintxt">Web Developer</p>
+</div>
+    
+<!-- About me section -->
+<div class="container-fluid" id="about">
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-8">
+    <h2>About Me</h2>
+    <p class="maintxt">A recent Business Technology graduate who’s got a passion for making beautiful websites and making running your business easier. My goal as a web designer and developer is to create the perfect website solution for you and your business that will propel your business to the next level. Be that expanding into new markets, establishing a greater presence within your current market or just giving your current website an uplift and expanding your online presence. No project is too small and would love to talk more about any new or upcoming projects. </p>
+        
+        <br>
+    <a href="#contact" class="btn btn2">Let's talk!</a>
+                
+                
+        <br>
+        <br>
+        
+        </div>
+        
+    <div class="col-sm-4">
+        <img class="img-thumbnail img-fluid" src="Photos/Alessandroferro.JPG" alt="Alessandro Ferro">
+    </div>
+    </div>
+    </div>
+</div>
+    
+<div class="container-fluid text-center service" id="Services">
+    <h2>What I Do</h2>
+    
+    <br><br>
+    
+    <div class="row">
+        <div class="col-sm-4">
+            
+            <span class="glyphicon glyphicon-pencil logo-small"></span>
+            <p class="maintxt">Work with you during the design phase to make sure it is everything you envisioned of.  </p>
+        </div>
+        
+        <div class="col-sm-4">
+    
+            <span class="glyphicon glyphicon-tasks logo-small"></span>
+            <p class="maintxt">Once you are happy with the design I will start to develop your site with regular engagement with you to make sure it is living up to expectations. This stage will include 3 revisions so if something isn’t right it can be changed. </p>
+        </div>
+        
+        <div class="col-sm-4">
+            
+            <span class="glyphicon glyphicon-wrench logo-small"></span>
+            <p class="maintxt">After all the development is done and the site is launched. I offer a maintenance deal that allows you peace of mind with your site as all will be looked after by me as well as making any changes that are needed to the site. </p>
+        </div>
+    </div>
+</div>
+    <!-- Portfolio -->
+<div class="container-fluid text-center portfolio" id="portfolio">
+    <h2>My Work</h2>
+    
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img class="img-fluid img-thumbnail imgb" src="Photos/Landing%20page.png" alt="Your Club @ Brooklands">
+                    </div>
+                    
+                    <div class="col-sm-8">
+                        <h3 class="card-title">Your Club @ Brooklands</h3>
+                        <p class="card-text">This site is 1 of 2 sites that I will be developing for Your Club @ Brooklands. The gym located is located in Sale, Greater Manchester. The aim for this site was to be a pre launch site for the new gym that will be opening up in December 2021. The site was developed closely with the client with the aim of generating interest in the gym and having a way of gathering that interest via a form. As well as showcasing how the new site will look and what the members can expect.  </p>
+                        <a href="http://www.yourclubbrooklands.co.uk/" class="btn btn2">View site!</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <h4 class="morework">More work coming soon!</h4>
+    
+    <div id="div1" class="fa"></div>
+    
+    <script>
+    function hourglass() {
+        var a;
+        a = document.getElementById("div1");
+        a.innerHTML = "&#xf251;";
+        setTimeout(function () {
+            a.innerHTML = "&#xf252;";
+        }, 1000);
+        setTimeout(function () {
+            a.innerHTML = "&#xf253;";
+        }, 2000);
+    }
+        
+    hourglass();
+    setInterval(hourglass, 3000);
+    </script>
+    
+</div>
+    
+<!-- Contact -->
+<div class="container-fluid service" id="contact">
+    <h2 class="text-center">Contact</h2>
+    
+    <br>
+    <div class="container text-center">
+    
+            <p class=maintxt>Contact us using the ways listed and I'll get back to you to discuss your project!</p>
+            
+            <p class="txt"><span class="glyphicon glyphicon-map-marker"></span> Manchester, UK</p>
+            
+            <p class="txt"><span class="glyphicon glyphicon-envelope"></span> ferrowebsite@gmail.com</p>
+    </div>
+    
+    <div class="container">
+    <div class="container contactform">
+   
+        <div data-tf-widget="eZs8a16v" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+
+    </div>
+    </div>    
+       
+    </div>
+  
+</body>
+</html>
